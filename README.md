@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image%20(2).jpg" width="100%">
+  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image.JPG" width="100%">
 </p>
 
 # Amilton Koxi — Engineer in IoT, Cloud & Intelligent Systems
