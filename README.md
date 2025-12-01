@@ -1,9 +1,13 @@
-# 👋 Amilton Koxi — Engineer in IoT, Cloud & Intelligent Systems
+<p align="center">
+  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image%20(2).jpg" width="100%">
+</p>
+
+# Amilton Koxi — Engineer in IoT, Cloud & Intelligent Systems
 
 I work across the intersection of **embedded systems, cloud computing, intelligent networking, and applied machine learning**.  
 My focus is creating **efficient, secure, and scalable** architectures that transform real-world sensor data into actionable intelligence — from **edge devices** to **cloud platforms**.
 
-I enjoy building systems where **hardware awareness**, **algorithmic efficiency**, and **cloud-native automation** come together.
+I enjoy building systems where **hardware awareness**, **algorithmic efficiency**, and **cloud-native automation** meet to solve real engineering challenges.
 
 ---
 
@@ -20,33 +24,33 @@ I enjoy building systems where **hardware awareness**, **algorithmic efficiency*
 
 ## 🔧 How I Work
 
-My engineering approach blends **low-level hardware design**, **network-aware communication**,  
+My engineering approach integrates **low-level embedded design**, **network-aware communication**,  
 and **cloud-native automation** to build systems that are:
 
 - **Robust** under unreliable communication  
 - **Efficient** in power, performance, and data flow  
 - **Scalable** from prototype to distributed deployment  
-- **Secure** at the protocol and infrastructure level  
+- **Secure** at both protocol and infrastructure levels  
 
-I typically work on:
+Typical work includes:
 
 - Long-range IoT and wireless communication  
-- Real-time sensing, data acquisition, and embedded optimization  
+- Real-time sensing, telemetry, and embedded optimization  
 - Edge-accelerated computation (HLS, hardware-aware design)  
 - Distributed cloud/data pipelines and microservices  
-- Network modeling, simulation, and performance tuning  
-- Intelligent systems powered by ML-driven automation  
+- Network modelling, simulation, and performance tuning  
+- Intelligent systems using ML-driven automation  
 
 ---
 
 ## 🔬 Research & Engineering Interests
 
 - Intelligent and adaptive IoT architectures  
-- Wireless sensor networks and swarm-based optimization  
-- Edge–cloud co-design and real-time analytics  
+- Wireless sensor networks & swarm-based optimization  
+- Edge–cloud co-design for real-time analytics  
 - Secure communication systems  
 - Hardware-aware algorithm acceleration  
-- Applied machine learning for embedded and distributed systems  
+- Applied machine learning for embedded & distributed systems  
 
 ---
 
