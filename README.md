@@ -9,6 +9,14 @@
 
 <br>
 
+<!-- ========================= PROFILE IMAGE ========================= -->
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image.png" width="85%" style="border-radius:14px;" />
+</div>
+
+<br>
+
 <!-- ========================= TAGLINE + BUTTONS ========================= -->
 
 <div align="center">
@@ -16,13 +24,13 @@
 ### 🚀 Bridging Hardware Constraints & Cloud Intelligence
 
 <p>
-  <a href="https://www.linkedin.com/in/amilton-koxi/" target="_blank">
+  <a href="https://www.linkedin.com/in/amilton-koxi/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin"/>
   </a>
   <a href="mailto:amiltonkoxi2023@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://amiltonkoxi.github.io" target="_blank">
+  <a href="https://amiltonkoxi.github.io">
     <img src="https://img.shields.io/badge/Portfolio-Visit_Site-2ea44f?style=for-the-badge&logo=github"/>
   </a>
 </p>
@@ -39,7 +47,7 @@
 </p>
 
 <p align="center">
-  Currently completing a <b>second M.Sc. in Computer Science Engineering</b> (Cloud & AI) at the University of Debrecen,<br>
+  Completing a <b>second M.Sc. in Computer Science Engineering</b> (Cloud & AI) at the University of Debrecen,<br>
   following my <b>M.Sc. in Infocommunication Technologies</b>.
 </p>
 
@@ -61,10 +69,10 @@
 <div align="center">
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
 <img src="https://img.shields.io/badge/Verilog-B00000?style=for-the-badge&logo=amd&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 
 <br><br>
 
@@ -93,7 +101,7 @@
 | :---: | :--- | :--- |
 | **2025** | 🥇 TalentUD Excellence Program | University of Debrecen |
 | **2024** | 🎓 Stipendium Hungaricum Scholarship | Tempus Public Foundation |
-| **2024** | 🏆 1st Place – Technical Sciences | International Scientific Conference (Russia) |
+| **2024** | 🏆 1st Place – Technical Sciences | International Scientific Conference |
 
 </div>
 
@@ -103,22 +111,22 @@
 
 <div align="center">
 
-| **Project** | **Description** | **Stack** |
+| Project | Description | Stack |
 | :--- | :--- | :--- |
-| **🤖 FPGA Edge AI Accelerator** | Real-time contour detection & BNN inference on PYNQ-Z2. | `Vivado HLS` `FINN` `Python` |
-| **🐝 RA-PSO-LEACH** | Swarm-optimized routing protocol for Wireless Sensor Networks. | `MATLAB` `Algorithms` `WSN` |
-| **☁️ IoT Cloud Architecture** | Sensor → Edge → Cloud anomaly detection pipeline. | `Azure IoT` `Python` `REST` |
-| **📄 NutriParse OCR** | Intelligent PDF → nutrition extraction using OCR/NLP. | `FastAPI` `Next.js` `NLP` |
+| **🤖 FPGA Edge AI Accelerator** | Real-time contour detection & BNN inference (PYNQ-Z2). | `Vivado HLS` `FINN` `Python` |
+| **🐝 RA-PSO-LEACH** | Swarm-optimized routing protocol for WSN. | `MATLAB` `Algorithms` `WSN` |
+| **☁️ IoT Cloud Architecture** | Full pipeline: Sensor → Edge → Cloud anomaly detection. | `Azure IoT` `Python` |
+| **📄 NutriParse OCR** | Intelligent PDF → Nutrition extraction (OCR/NLP). | `FastAPI` `Next.js` |
 
 </div>
 
 ---
 
-<h2 align="center">⚡ GitHub Analytics</h2>
+# ⚡ GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=7200" height="160"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=7200" height="160"/>
 </div>
 
 ---
