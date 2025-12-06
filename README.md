@@ -1,29 +1,13 @@
-<!-- ========================= HEADER BANNER ========================= -->
-
 <div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:4F46E5,100:9333EA&height=260&section=header&text=Amilton%20Koxi&fontSize=75&animation=fadeIn&fontAlignY=34&desc=Computer%20Science%20%E2%80%94%20Research%20%26%20Development%0AEngineering%20the%20Logic%20Behind%20Intelligence&descSize=22&descAlignY=60"
-    width="100%"
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:240046,100:004e92&height=280&section=header&text=Computer%20Science%20%E2%80%94%20Research%20%26%20Development&fontSize=34&fontAlignY=38&desc=Engineering%20the%20Logic%20Behind%20Intelligence&descAlignY=60&descSize=20&animation=fadeIn&fontColor=ffffff" 
+    width="100%" 
+    alt="Header Animation"
   />
 </div>
 
-<br>
-
-<!-- ========================= PROFILE IMAGE ========================= -->
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image.png" width="85%" style="border-radius:14px;" />
-</div>
-
-<br>
-
-<!-- ========================= TAGLINE + BUTTONS ========================= -->
-
 <div align="center">
 
-### 🚀 Bridging Hardware Constraints & Cloud Intelligence
-
-<p>
   <a href="https://www.linkedin.com/in/amilton-koxi/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin"/>
   </a>
@@ -33,32 +17,33 @@
   <a href="https://amiltonkoxi.github.io">
     <img src="https://img.shields.io/badge/Portfolio-Visit_Site-2ea44f?style=for-the-badge&logo=github"/>
   </a>
-</p>
 
 </div>
-
----
-
-<h2 align="center">👨‍💻 About Me</h2>
-
-<p align="center">
-  I am a multidisciplinary <b>R&D Engineer</b> specializing in <b>end-to-end intelligent systems</b>. <br>
-  My work bridges embedded hardware (<b>STM32 • FPGA</b>) with modern <b>cloud intelligence</b> on Azure.
-</p>
-
-<p align="center">
-  Completing a <b>second M.Sc. in Computer Science Engineering</b> (Cloud & AI) at the University of Debrecen,<br>
-  following my <b>M.Sc. in Infocommunication Technologies</b>.
-</p>
 
 <br>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image.png" width="180" style="border-radius:50%; border: 4px solid #30363d;" alt="Profile Pic"/>
+</div>
 
-| **Current Focus** | **Research Interests** |
+<h2 align="center">👨‍💻 About Me</h2>
+
+<p align="center">
+  I am a multidisciplinary <b>R&D Engineer</b> specializing in <b>end-to-end intelligent systems</b>.<br>
+  My work bridges the gap between hardware constraints (<b>Embedded/FPGA</b>) and scalable <b>Cloud Intelligence</b>.
+</p>
+
+<p align="center">
+  Currently finalizing a <b>second M.Sc. in Computer Science Engineering</b> (Cloud & AI) at the University of Debrecen,<br>
+  complementing my previous <b>M.Sc. in Infocommunication Technologies</b> (Secure Telecom).
+</p>
+
+<div align="center">
+
+| **Core Focus** | **Research & Innovation** |
 | :--- | :--- |
-| 🔭 FPGA-accelerated Edge AI & BNNs | 🧠 Swarm Intelligence (PSO for WSN) |
-| 🌱 Azure IoT, Event Grid & Cloud Automation | 🔐 Hardware-aware optimization & security |
+| 🔭 **Edge AI:** FPGA-accelerated BNNs & Inference | 🧠 **Swarm Intelligence:** PSO Algorithms for WSN |
+| 🌱 **Cloud:** Azure IoT, Event Grid & Data Pipelines | 🔐 **Security:** Hardware-aware Optimization |
 
 </div>
 
@@ -77,10 +62,9 @@
 <br><br>
 
 <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
-<img src="https://img.shields.io/badge/FPGA_(Xilinx)-FF0000?style=for-the-badge&logo=amd&logoColor=white"/>
+<img src="https://img.shields.io/badge/FPGA_Zynq-FF0000?style=for-the-badge&logo=amd&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vitis_HLS-F2C811?style=for-the-badge&logo=xilinx&logoColor=black"/>
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
-<img src="https://img.shields.io/badge/LoRa-0092CF?style=for-the-badge&logo=lora&logoColor=white"/>
 
 <br><br>
 
@@ -99,9 +83,9 @@
 
 | Year | Award | Organization |
 | :---: | :--- | :--- |
-| **2025** | 🥇 TalentUD Excellence Program | University of Debrecen |
-| **2024** | 🎓 Stipendium Hungaricum Scholarship | Tempus Public Foundation |
-| **2024** | 🏆 1st Place – Technical Sciences | International Scientific Conference |
+| **2025** | 🥇 **TalentUD Excellence Program** | University of Debrecen |
+| **2024** | 🎓 **Stipendium Hungaricum Scholarship** | Tempus Public Foundation |
+| **2024** | 🏆 **1st Place – Technical Sciences** | International Scientific Conference |
 
 </div>
 
@@ -114,28 +98,26 @@
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **🤖 FPGA Edge AI Accelerator** | Real-time contour detection & BNN inference (PYNQ-Z2). | `Vivado HLS` `FINN` `Python` |
-| **🐝 RA-PSO-LEACH** | Swarm-optimized routing protocol for WSN. | `MATLAB` `Algorithms` `WSN` |
+| **🐝 RA-PSO-LEACH** | Swarm-optimized routing protocol for WSN resilience. | `MATLAB` `Algorithms` `WSN` |
 | **☁️ IoT Cloud Architecture** | Full pipeline: Sensor → Edge → Cloud anomaly detection. | `Azure IoT` `Python` |
-| **📄 NutriParse OCR** | Intelligent PDF → Nutrition extraction (OCR/NLP). | `FastAPI` `Next.js` |
+| **📄 NutriParse AI** | Intelligent PDF extraction using OCR/NLP. | `FastAPI` `Next.js` |
 
 </div>
 
 ---
 
-<h2 align="center">⚡ Engineering Metrics & Analytics</h2>
+<h2 align="center">⚡ Engineering Metrics</h2>
 
 <div align="center">
 
-  <!-- GitHub Stats -->
   <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117" 
+    src="https://github-readme-stats.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117" 
     height="180" 
     alt="GitHub Stats"
   />
 
-  <!-- Top Languages -->
   <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0d1117" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0d1117" 
     height="180" 
     alt="Top Languages"
   />
@@ -145,19 +127,15 @@
 <br>
 
 <div align="center">
-
-  <!-- GitHub Streak -->
-  <img
-    src="https://streak-stats.demolab.com/?user=amiltonkoxi&theme=radical&hide_border=true&fire=EB4C2C&ring=EB4C2C&currStreakLabel=EB4C2C&background=0d1117"
+  <img 
+    src="https://streak-stats.demolab.com/?user=amiltonkoxi&theme=radical&hide_border=true&fire=EB4C2C&ring=EB4C2C&currStreakLabel=EB4C2C&background=0d1117" 
     alt="GitHub Streak"
     width="85%"
   />
-
 </div>
 
-
----
+<br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9333EA&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:004e92,100:240046&height=100&section=footer" width="100%"/>
 </div>
