@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:5C2D91&height=220&section=header&text=Amilton%20Koxi&fontSize=80&animation=fadeIn&fontAlignY=35&desc=R%26D%20Engineer%20%7C%20IoT%20%E2%80%A2%20Edge%20AI%20%E2%80%A2%20Cloud%20Architect&descAlignY=55&descAlign=50" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:5C2D91&height=220&section=header&text=Amilton%20Koxi&fontSize=80&animation=fadeIn&fontAlignY=35&desc=R%26D%20Engineer%20%7C%20IoT%20%E2%80%A2%20FPGA%20%E2%80%A2%20Cloud%20Architect&descAlignY=55&descAlign=50" width="100%" alt="Header" />
 
   ### 🚀 Bridging the gap between Hardware Constraints and Cloud Intelligence
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amilton-koxi)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amilton-koxi/)
   [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amiltonkoxi2023@gmail.com)
   [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-2ea44f?style=for-the-badge&logo=github)](https://amiltonkoxi.github.io)
 
@@ -13,47 +13,47 @@
 
 ### 👨‍💻 About Me
 
-I am a multidisciplinary **R&D Engineer** with a philosophy of **"End-to-End Engineering"**. I design systems that span from the sensor node (Embedded/FPGA) to the decision-making algorithm (Edge AI/Swarm) and the infrastructure (Cloud/Data).
+[cite_start]I am a multidisciplinary **R&D Engineer** experienced in IoT, Embedded Systems, and Cloud Computing[cite: 10]. [cite_start]My work focuses on building end-to-end connected solutions, integrating sensors and devices with cloud platforms[cite: 11].
 
-Currently finalizing a **second M.Sc. in Computer Science Engineering** (Cloud & AI) at the University of Debrecen, complementing my previous **M.Sc. in Infocommunication Technologies** (Secure Telecom) from SPbPU.
-
-* 🔭 **I’m currently working on:** FPGA-accelerated Edge AI & Swarm Intelligence for WSN.
-* 🌱 **I’m currently learning:** Advanced Azure Architectures & MLOps.
-* 💡 **Core Interest:** Solving engineering challenges where **hardware awareness**, **algorithmic efficiency**, and **cloud automation** meet.
+* [cite_start]🎓 **M.Sc. in Computer Science Engineering:** University of Debrecen, Hungary (Focus on Cloud/IoT)[cite: 34].
+* [cite_start]🎓 **M.Sc. in Infocommunication Technologies:** Peter the Great St. Petersburg Polytechnic University, Russia[cite: 35].
+* [cite_start]🔬 **R&D Experience:** Formerly an R&D Intern at SPbPU, engineering custom IoT testing frameworks using STM32/ESP32[cite: 22, 23].
 
 ---
 
 ### 🛠️ Tech Stack & Arsenal
 
+[cite_start]Based on my core competencies[cite: 13, 19, 21]:
+
 <div align="center">
 
 | **Embedded & FPGA** | **Cloud & DevOps** | **AI & Intelligence** | **Languages** |
 |:---:|:---:|:---:|:---:|
-| ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| ![FPGA](https://img.shields.io/badge/Vivado_HLS-FFC107?style=flat-square&logo=xilinx&logoColor=black) | ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | ![Verilog](https://img.shields.io/badge/Verilog-B02927?style=flat-square) |
-| ![LoRa](https://img.shields.io/badge/LoRaWAN-09B6E7?style=flat-square) | ![SQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) | ![TinyML](https://img.shields.io/badge/TinyML-Edge_AI-4CAF50?style=flat-square) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) | ![Machine Learning](https://img.shields.io/badge/Applied_ML-EE4C2C?style=flat-square) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) | ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) | ![OpenCV](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white) | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
+| ![FPGA](https://img.shields.io/badge/Vivado_HLS-FFC107?style=flat-square&logo=xilinx&logoColor=black) | ![Cloud Data](https://img.shields.io/badge/Cloud_Data-2088FF?style=flat-square) | ![Signal Processing](https://img.shields.io/badge/DSP-Signal_Processing-4CAF50?style=flat-square) | ![RTOS](https://img.shields.io/badge/RTOS-150458?style=flat-square) |
 
 </div>
 
 ---
 
-### 🏆 Selected Honors & Awards
+### 🏆 Honors & Awards
 
-* 🥇 **TalentUD Excellence Program (2025)** – Selected for outstanding R&D contributions.
-* 🎓 **Stipendium Hungaricum Scholarship (2024)** – Full Merit Scholarship for M.Sc.
-* 🏆 **1st Place Award, Technical Sciences (2024)** – International Scientific Conference (Penza, Russia).
+* [cite_start]🥇 **TalentUD Excellence Program (2025)** – Selected by University of Debrecen for outstanding academic performance and R&D contribution[cite: 69].
+* [cite_start]🎓 **Stipendium Hungaricum Scholarship (2024)** – Merit-based scholarship for MSc studies[cite: 44].
+* [cite_start]🏆 **1st Place Award, Technical Sciences (2024)** – International Scientific Conference (Penza, Russia) for research on material durability testing[cite: 47].
+* [cite_start]🎖️ **National Math Olympiad Winner (2016)** – "Time to Study in Russia" competition, Angola[cite: 48].
 
 ---
 
 ### 🔭 Featured Projects
 
-| Project | Description | Stack |
+| Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **🤖 FPGA-Accelerated Edge AI** | Real-time image contour detection & BNN inference using PYNQ-Z2. Outperforms CPU execution. | `Vivado HLS` `FINN` `Python` |
-| **🐝 RA-PSO-LEACH Swarm** | Adaptive routing protocol for WSNs using Particle Swarm Optimization for energy efficiency. | `MATLAB` `Algorithms` `WSN` |
-| **☁️ IoT Cloud Architecture** | End-to-end sensor-to-cloud pipeline with anomaly detection engine. | `Azure IoT` `Python` `REST API` |
-| **📄 NutriParse AI Reader** | Full-stack app extracting nutritional data from PDFs using OCR/NLP. | `FastAPI` `Next.js` `NLP` |
+| **⚡ FPGA-Based Edge Acceleration** | [cite_start]Designed a hardware-accelerated pipeline on PYNQ-Z2 with custom HLS IP blocks and hardware-software co-design[cite: 53, 54, 55]. | `Vivado HLS` `PYNQ` `Co-design` |
+| **🐝 Adaptive Swarm Intelligence** | [cite_start]Developed a PSO-based adaptive algorithm for real-time anomaly detection in WSN, optimized for edge computation[cite: 50, 51, 52]. | `Swarm Algorithms` `WSN` `Edge Computing` |
+| **💶 Banknote Detection System** | [cite_start]Engineered a computer vision solution using Azure Custom Vision for real-time Hungarian Forint recognition[cite: 56, 57]. | `Azure AI` `Computer Vision` `Cloud` |
+| **🥗 Nutriparse Reader** | [cite_start]Built a full-stack AI application (FastAPI + Next.js) to automate nutritional data extraction from PDFs using OCR/NLP[cite: 58, 59]. | `FastAPI` `Next.js` `NLP` |
 
 ---
 
