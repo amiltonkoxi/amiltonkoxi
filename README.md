@@ -29,22 +29,22 @@
 <h2 align="center">👨‍💻 About Me</h2>
 
 <p align="center">
-  I am a multidisciplinary <b>R&D Engineer</b> experienced in <b>IoT, Embedded Systems, and Cloud Computing</b>.<br>
-  Skilled in building <b>end-to-end connected solutions</b>, integrating sensors and devices with cloud platforms.
+  I am a multidisciplinary <b>R&D Engineer</b> with expertise in <b>IoT, Embedded Systems, FPGA acceleration, and Cloud Computing</b>.<br>
+  I design <b>end-to-end intelligent architectures</b> where hardware awareness, edge intelligence, and cloud orchestration operate as one unified system.
 </p>
 
 <p align="center">
-  Currently focused on applying <b>intelligent algorithms</b> and <b>cloud technologies</b> to develop scalable,<br> 
-  reliable, and data-driven solutions for modern embedded environments.
+  My current work focuses on <b>algorithmic optimization for constrained devices</b>,<br>
+  <b>edge-accelerated computation</b> (FPGA/HLS), and <b>AI-driven telemetry pipelines</b> for IoT and WSN environments.
 </p>
 
 <div align="center">
 
 | **Academic Background** | **Core Competencies** |
 | :--- | :--- |
-| 🎓 **M.Sc. Computer Science Engineering** (Debrecen) | 📡 **IoT Systems & Edge Computing** |
-| 🎓 **M.Sc. Infocommunication Technologies** (SPbPU) | ⚡ **Hardware Acceleration (FPGA/Vitis)** |
-| 🔬 **R&D Experience** (Peter the Great SPbPU) | ☁️ **Cloud Data Engineering (Azure)** |
+| 🎓 **M.Sc. Computer Science Engineering** (University of Debrecen) | 📡 **IoT Systems & Edge Computing** |
+| 🎓 **M.Sc. Infocommunication Technologies** (SPbPU) | ⚡ **FPGA Hardware Acceleration (HLS/Vitis)** |
+| 🔬 **R&D Experience (Smart Sensors & Telecom)** | ☁️ **Cloud Data Engineering (Azure)** |
 
 </div>
 
@@ -85,8 +85,8 @@
 
 | Year | Award | Organization |
 | :---: | :--- | :--- |
-| **2025** | 🥇 **TalentUD Excellence Program** (Outstanding R&D Engagement) | University of Debrecen |
-| **2024** | 🎓 **Stipendium Hungaricum Scholarship** (Full Merit) | Tempus Public Foundation |
+| **2025** | 🥇 **TalentUD Excellence Program** (R&D Achievement) | University of Debrecen |
+| **2024** | 🎓 **Stipendium Hungaricum Scholarship** | Tempus Public Foundation |
 | **2024** | 🏆 **1st Place – Technical Sciences** | International Scientific Conference |
 
 </div>
@@ -99,10 +99,10 @@
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **🤖 FPGA-Based Edge Acceleration** | Designed a hardware-accelerated pipeline on PYNQ-Z2 with custom HLS IP blocks and hardware-software co-design. | `Vivado HLS` `PYNQ` `Co-design` |
-| **🐝 Adaptive Swarm Intelligence** | Developed a PSO-based adaptive algorithm for real-time anomaly detection in WSN, optimized for edge computation. | `Swarm Algorithms` `WSN` `Edge Computing` |
-| **💶 Banknote Detection System** | Engineered a computer vision solution using Azure Custom Vision for real-time Hungarian Forint recognition. | `Azure AI` `Computer Vision` `Cloud` |
-| **🥗 Nutriparse Reader** | Built a full-stack AI application (FastAPI + Next.js) to automate nutritional data extraction from PDFs using OCR/NLP. | `FastAPI` `Next.js` `NLP` |
+| **🤖 FPGA-Based Edge Acceleration** | Built a hardware-accelerated pipeline on PYNQ-Z2 with custom HLS IPs and real-time inference. | `Vivado HLS` `PYNQ` `Co-design` |
+| **🐝 Adaptive Swarm Intelligence for WSN** | Designed a PSO-driven anomaly-aware routing strategy optimized for edge devices. | `Swarm Algorithms` `WSN` `Edge Computing` |
+| **💶 Banknote Detection System** | Implemented a real-time CV system using Azure Custom Vision for Hungarian forint recognition. | `Azure AI` `Computer Vision` |
+| **🥗 Nutriparse Reader** | Full-stack AI tool (FastAPI + Next.js) automating nutrition extraction via OCR/NLP. | `FastAPI` `Next.js` `NLP` |
 
 </div>
 
@@ -114,14 +114,12 @@
 
   <img 
     src="https://github-readme-stats.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117" 
-    height="180" 
-    alt="GitHub Stats"
+    height="180"
   />
 
   <img 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0d1117" 
-    height="180" 
-    alt="Top Languages"
+    height="180"
   />
 
 </div>
@@ -131,7 +129,6 @@
 <div align="center">
   <img 
     src="https://streak-stats.demolab.com/?user=amiltonkoxi&theme=radical&hide_border=true&fire=EB4C2C&ring=EB4C2C&currStreakLabel=EB4C2C&background=0d1117" 
-    alt="GitHub Streak"
     width="85%"
   />
 </div>
