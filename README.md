@@ -1,65 +1,50 @@
-<!-- ========================= HEADER BANNER ========================= -->
-
 <div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:4F46E5,100:9333EA&amp;height=260&amp;section=header&amp;text=Amilton%20Koxi&amp;fontSize=75&amp;animation=fadeIn&amp;fontAlignY=34&amp;desc=Computer%20Science%20%E2%80%94%20R%26D%20%E2%80%A2%20Engineering%20the%20Logic%20Behind%20Intelligence&amp;descSize=22&amp;descAlignY=60"
-    width="100%"
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:240046,100:004e92&height=280&section=header&text=Computer%20Science%20%E2%80%94%20Research%20%26%20Development&fontSize=34&fontAlignY=38&desc=Engineering%20the%20Logic%20Behind%20Intelligence&descAlignY=60&descSize=20&animation=fadeIn&fontColor=ffffff" 
+    width="100%" 
+    alt="Header Animation"
   />
 </div>
 
-<br>
-
-<!-- ========================= PROFILE IMAGE ========================= -->
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image.png" width="85%" style="border-radius:14px;" />
-</div>
-
-<br>
-
-<!-- ========================= TAGLINE + BUTTONS ========================= -->
-
 <div align="center">
 
-### 🚀 Bridging Hardware Constraints & Cloud Intelligence
-
-<p>
   <a href="https://www.linkedin.com/in/amilton-koxi/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&amp;logo=linkedin"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin"/>
   </a>
   <a href="mailto:amiltonkoxi2023@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://amiltonkoxi.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Visit_Site-2ea44f?style=for-the-badge&amp;logo=github"/>
+    <img src="https://img.shields.io/badge/Portfolio-Visit_Site-2ea44f?style=for-the-badge&logo=github"/>
   </a>
-</p>
 
 </div>
 
----
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/amiltonkoxi/amiltonkoxi/main/image.png" width="180" style="border-radius:50%; border: 4px solid #30363d;" alt="Profile Pic"/>
+</div>
 
 <h2 align="center">👨‍💻 About Me</h2>
 
 <p align="center">
-  Research-oriented <b>R&amp;D Engineer</b> in <b>Computer Science</b>, working across embedded/FPGA systems,
-  wireless sensor networks, and cloud/edge data platforms. <br>
-  I design end-to-end systems that turn raw telemetry into reliable, real-time intelligence.
+  I am a multidisciplinary <b>R&D Engineer</b> experienced in <b>IoT, Embedded Systems, and Cloud Computing</b>.<br>
+  Skilled in building <b>end-to-end connected solutions</b>, integrating sensors and devices with cloud platforms.
 </p>
 
 <p align="center">
-  Currently completing a <b>second M.Sc. in Computer Science Engineering</b> (Cloud &amp; AI) at the University of Debrecen, <br>
-  building on a prior <b>M.Sc. in Infocommunication Technologies</b> with a focus on secure telecommunications.
+  Currently focused on applying <b>intelligent algorithms</b> and <b>cloud technologies</b> to develop scalable,<br> 
+  reliable, and data-driven solutions for modern embedded environments.
 </p>
-
-<br>
 
 <div align="center">
 
-| **Current Focus** | **Research Interests** |
+| **Academic Background** | **Core Competencies** |
 | :--- | :--- |
-| 🔭 FPGA-accelerated Edge AI &amp; BNNs | 🧠 Swarm Intelligence (PSO-based optimization for WSN) |
-| 🌱 Azure IoT, event-driven cloud architectures | 🔐 Hardware-aware performance &amp; security tuning |
+| 🎓 **M.Sc. Computer Science Engineering** (Debrecen) | 📡 **IoT Systems & Edge Computing** |
+| 🎓 **M.Sc. Infocommunication Technologies** (SPbPU) | ⚡ **Hardware Acceleration (FPGA/Vitis)** |
+| 🔬 **R&D Experience** (Peter the Great SPbPU) | ☁️ **Cloud Data Engineering (Azure)** |
 
 </div>
 
@@ -69,74 +54,72 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/Verilog-B00000?style=for-the-badge&amp;logo=amd&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&amp;logo=typescript&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+<img src="https://img.shields.io/badge/Verilog-B00000?style=for-the-badge&logo=amd&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&amp;logo=stmicroelectronics&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/FPGA_(Xilinx)-FF0000?style=for-the-badge&amp;logo=amd&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/Vitis_HLS-F2C811?style=for-the-badge&amp;logo=xilinx&amp;logoColor=black"/>
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&amp;logo=espressif&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/LoRa-0092CF?style=for-the-badge&amp;logo=lora&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
+<img src="https://img.shields.io/badge/FPGA_Zynq-FF0000?style=for-the-badge&logo=amd&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vitis_HLS-F2C811?style=for-the-badge&logo=xilinx&logoColor=black"/>
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
+<img src="https://img.shields.io/badge/LoRa-0092CF?style=for-the-badge&logo=lora&logoColor=white"/>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&amp;logo=microsoft-azure&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&amp;logo=opencv&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
 
 </div>
 
 ---
 
-<h2 align="center">🏆 Honors &amp; Awards</h2>
+<h2 align="center">🏆 Honors & Awards</h2>
 
 <div align="center">
 
 | Year | Award | Organization |
 | :---: | :--- | :--- |
-| <b>2025</b> | 🥇 <b>TalentUD Excellence Program</b> – R&amp;D talent program | University of Debrecen |
-| <b>2024</b> | 🎓 <b>Stipendium Hungaricum Scholarship</b> – full M.Sc. scholarship | Tempus Public Foundation |
-| <b>2024</b> | 🏆 <b>1st Place – Technical Sciences</b> | International Scientific Conference |
+| **2025** | 🥇 **TalentUD Excellence Program** (Outstanding R&D Engagement) | University of Debrecen |
+| **2024** | 🎓 **Stipendium Hungaricum Scholarship** (Full Merit) | Tempus Public Foundation |
+| **2024** | 🏆 **1st Place – Technical Sciences** | International Scientific Conference |
 
 </div>
 
 ---
 
-<h2 align="center">🔭 Featured Engineering Projects</h2>
+<h2 align="center">🔭 Featured Projects</h2>
 
 <div align="center">
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| <b>🤖 FPGA Edge AI Accelerator</b> | Real-time contour detection and BNN inference on PYNQ-Z2, benchmarking FPGA vs CPU for edge workloads. | <code>Vivado HLS</code> <code>FINN</code> <code>Python</code> |
-| <b>🐝 RA-PSO-LEACH</b> | Swarm-optimized routing protocol for Wireless Sensor Networks using PSO for energy-aware cluster-head selection. | <code>MATLAB</code> <code>Algorithms</code> <code>WSN</code> |
-| <b>☁️ IoT Cloud Architecture</b> | End-to-end telemetry pipeline (sensor → edge → cloud) with anomaly detection and Azure-based observability. | <code>Azure IoT</code> <code>Python</code> <code>REST</code> |
-| <b>📄 NutriParse OCR</b> | OCR/NLP pipeline to extract structured nutritional information from unstructured PDF documents. | <code>FastAPI</code> <code>Next.js</code> <code>NLP</code> |
+| **🤖 FPGA-Based Edge Acceleration** | Designed a hardware-accelerated pipeline on PYNQ-Z2 with custom HLS IP blocks and hardware-software co-design. | `Vivado HLS` `PYNQ` `Co-design` |
+| **🐝 Adaptive Swarm Intelligence** | Developed a PSO-based adaptive algorithm for real-time anomaly detection in WSN, optimized for edge computation. | `Swarm Algorithms` `WSN` `Edge Computing` |
+| **💶 Banknote Detection System** | Engineered a computer vision solution using Azure Custom Vision for real-time Hungarian Forint recognition. | `Azure AI` `Computer Vision` `Cloud` |
+| **🥗 Nutriparse Reader** | Built a full-stack AI application (FastAPI + Next.js) to automate nutritional data extraction from PDFs using OCR/NLP. | `FastAPI` `Next.js` `NLP` |
 
 </div>
 
 ---
 
-<h2 align="center">⚡ Engineering Metrics &amp; Analytics</h2>
+<h2 align="center">⚡ Engineering Metrics</h2>
 
 <div align="center">
 
-  <!-- GitHub Stats -->
   <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=amiltonkoxi&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;count_private=true&amp;include_all_commits=true&amp;bg_color=0d1117" 
+    src="https://github-readme-stats.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117" 
     height="180" 
     alt="GitHub Stats"
   />
 
-  <!-- Top Languages -->
   <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amiltonkoxi&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;langs_count=8&amp;bg_color=0d1117" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0d1117" 
     height="180" 
     alt="Top Languages"
   />
@@ -146,18 +129,15 @@
 <br>
 
 <div align="center">
-
-  <!-- GitHub Streak -->
-  <img
-    src="https://streak-stats.demolab.com/?user=amiltonkoxi&amp;theme=radical&amp;hide_border=true&amp;fire=EB4C2C&amp;ring=EB4C2C&amp;currStreakLabel=EB4C2C&amp;background=0d1117"
+  <img 
+    src="https://streak-stats.demolab.com/?user=amiltonkoxi&theme=radical&hide_border=true&fire=EB4C2C&ring=EB4C2C&currStreakLabel=EB4C2C&background=0d1117" 
     alt="GitHub Streak"
     width="85%"
   />
-
 </div>
 
----
+<br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=9333EA&amp;height=120&amp;section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:004e92,100:240046&height=100&section=footer" width="100%"/>
 </div>
