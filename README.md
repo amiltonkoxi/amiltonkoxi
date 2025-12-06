@@ -122,15 +122,19 @@
 
 ---
 
-# ⚡ GitHub Analytics
+<h2 align="center">⚡ GitHub Analytics</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=7200" height="160"/>
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=7200" height="160"/>
+
+<img 
+  src="https://github-readme-stats-sigma-five.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=tokyonight&hide_border=true" 
+  height="160"
+/>
+
+<img 
+  src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=tokyonight&hide_border=true" 
+  height="160"
+/>
+
 </div>
 
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9333EA&height=120&section=footer" width="100%"/>
-</div>
