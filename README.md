@@ -2,17 +2,9 @@
 
 <div align="center">
   <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:5C2D91&height=230&section=header&text=Amilton%20Koxi&fontSize=80&animation=fadeIn&fontAlignY=40&desc=R&D%20Engineer%20%7C%20IoT%20%E2%80%A2%20FPGA%20%E2%80%A2%20Cloud%20Architect&descAlignY=70" 
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:5C2D91&height=230&section=header&text=Amilton%20Koxi&fontSize=80&animation=fadeIn&fontAlignY=40&desc=Computer%20Science%20%E2%80%94%20Research%20%26%20Development%20%E2%80%A2%20Engineering%20the%20Logic%20Behind%20Intelligence&descAlignY=70" 
     width="100%" 
   />
-</div>
-
-<br>
-
-<!-- ========================= PROFILE IMAGE ========================= -->
-
-<div align="center">
-  <img src="./image.png" width="100%" style="border-radius:12px;">
 </div>
 
 <br>
