@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+  <defs>
+    <linearGradient id="div" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A1B26" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#7AA2F7" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#BB9AF7" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#7AA2F7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1A1B26" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#div)" stroke-width="1.2"/>
+  <circle cx="600" cy="20" r="3" fill="#BB9AF7">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="585" cy="20" r="1.5" fill="#7AA2F7" opacity="0.6"/>
+  <circle cx="615" cy="20" r="1.5" fill="#7AA2F7" opacity="0.6"/>
+
+  <!-- traveling pulse -->
+  <circle r="2" fill="#7DCFFF" opacity="0.9">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M 100 20 L 1100 20"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
