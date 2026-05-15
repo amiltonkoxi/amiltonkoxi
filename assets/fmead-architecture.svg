@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" width="1100" height="620">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1B26"/>
+      <stop offset="100%" stop-color="#16161E"/>
+    </linearGradient>
+    <linearGradient id="fpgaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#24283B"/>
+      <stop offset="100%" stop-color="#1F2335"/>
+    </linearGradient>
+    <linearGradient id="sensorGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7AA2F7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7AA2F7" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="outputGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#BB9AF7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#BB9AF7" stop-opacity="0.05"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7AA2F7"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#BB9AF7"/>
+    </marker>
+    <pattern id="dotgrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#2A2B3D"/>
+    </pattern>
+  </defs>
+
+  <rect width="1100" height="620" fill="url(#bg)"/>
+  <rect width="1100" height="620" fill="url(#dotgrid)"/>
+
+  <!-- title -->
+  <text x="40" y="40" font-family="'JetBrains Mono', monospace" font-size="13" fill="#565F89" letter-spacing="2">// SYSTEM ARCHITECTURE</text>
+  <text x="40" y="68" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700" fill="#C0CAF5">FMEAD-FPGA</text>
+  <text x="40" y="90" font-family="'JetBrains Mono', monospace" font-size="13" fill="#7AA2F7">Multi-Modal Edge Anomaly Detector  ·  Nexys 4 DDR  ·  Artix-7</text>
+
+  <!-- SENSOR COLUMN -->
+  <g font-family="'JetBrains Mono', monospace">
+    <text x="40" y="140" font-size="11" fill="#565F89" letter-spacing="2">SENSING LAYER</text>
+
+    <!-- ADXL362 -->
+    <g>
+      <rect x="40" y="155" width="180" height="55" rx="6" fill="url(#sensorGrad)" stroke="#7AA2F7" stroke-width="1.2"/>
+      <text x="55" y="180" font-size="14" font-weight="600" fill="#C0CAF5">ADXL362</text>
+      <text x="55" y="198" font-size="10" fill="#7DCFFF">Accelerometer  ·  SPI</text>
+    </g>
+
+    <!-- BME280 -->
+    <g>
+      <rect x="40" y="225" width="180" height="55" rx="6" fill="url(#sensorGrad)" stroke="#7AA2F7" stroke-width="1.2"/>
+      <text x="55" y="250" font-size="14" font-weight="600" fill="#C0CAF5">BME280</text>
+      <text x="55" y="268" font-size="10" fill="#7DCFFF">Temp · Humidity · Pressure  ·  I2C</text>
+    </g>
+
+    <!-- PDM Mic -->
+    <g>
+      <rect x="40" y="295" width="180" height="55" rx="6" fill="url(#sensorGrad)" stroke="#7AA2F7" stroke-width="1.2"/>
+      <text x="55" y="320" font-size="14" font-weight="600" fill="#C0CAF5">PDM Microphone</text>
+      <text x="55" y="338" font-size="10" fill="#7DCFFF">Acoustic Events  ·  PDM</text>
+    </g>
+
+    <!-- XADC -->
+    <g>
+      <rect x="40" y="365" width="180" height="55" rx="6" fill="url(#sensorGrad)" stroke="#7AA2F7" stroke-width="1.2"/>
+      <text x="55" y="390" font-size="14" font-weight="600" fill="#C0CAF5">XADC</text>
+      <text x="55" y="408" font-size="10" fill="#7DCFFF">On-die FPGA Thermal  ·  AXI</text>
+    </g>
+  </g>
+
+  <!-- FPGA CORE (center) -->
+  <g>
+    <rect x="320" y="135" width="430" height="350" rx="10" fill="url(#fpgaGrad)" stroke="#7AA2F7" stroke-width="1.8"/>
+    <text x="340" y="160" font-family="'JetBrains Mono', monospace" font-size="11" fill="#565F89" letter-spacing="2">FPGA · NEXYS 4 DDR</text>
+
+    <!-- corner ticks -->
+    <g stroke="#7AA2F7" stroke-width="1.5">
+      <line x1="320" y1="145" x2="330" y2="145"/>
+      <line x1="320" y1="145" x2="320" y2="155"/>
+      <line x1="750" y1="145" x2="740" y2="145"/>
+      <line x1="750" y1="145" x2="750" y2="155"/>
+      <line x1="320" y1="485" x2="330" y2="485"/>
+      <line x1="320" y1="485" x2="320" y2="475"/>
+      <line x1="750" y1="485" x2="740" y2="485"/>
+      <line x1="750" y1="485" x2="750" y2="475"/>
+    </g>
+
+    <!-- MicroBlaze -->
+    <rect x="350" y="190" width="180" height="100" rx="6" fill="#1A1B26" stroke="#BB9AF7" stroke-width="1.5"/>
+    <text x="440" y="220" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#C0CAF5">MicroBlaze</text>
+    <text x="440" y="240" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#BB9AF7">Soft-Core CPU</text>
+    <text x="440" y="260" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#565F89">C firmware</text>
+    <text x="440" y="276" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#565F89">real-time loop</text>
+
+    <!-- Custom Logic -->
+    <rect x="550" y="190" width="180" height="100" rx="6" fill="#1A1B26" stroke="#9ECE6A" stroke-width="1.5"/>
+    <text x="640" y="220" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#C0CAF5">Custom Logic</text>
+    <text x="640" y="240" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#9ECE6A">VHDL IPs</text>
+    <text x="640" y="260" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#565F89">filtering · BRAM</text>
+    <text x="640" y="276" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#565F89">parallel pipelines</text>
+
+    <!-- AXI bus -->
+    <line x1="530" y1="240" x2="550" y2="240" stroke="#7DCFFF" stroke-width="2"/>
+    <line x1="530" y1="240" x2="550" y2="240" stroke="#7DCFFF" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="540" y="232" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#7DCFFF">AXI</text>
+
+    <!-- Anomaly engine -->
+    <rect x="380" y="340" width="320" height="80" rx="6" fill="#1A1B26" stroke="#F7768E" stroke-width="1.5"/>
+    <text x="540" y="370" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#C0CAF5">Anomaly Detection Engine</text>
+    <text x="540" y="392" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F7768E">Multi-modal sensor fusion  ·  Real-time decisions</text>
+    <text x="540" y="408" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#565F89">EWMA  ·  thresholding  ·  event classification</text>
+
+    <!-- internal links -->
+    <line x1="440" y1="290" x2="440" y2="340" stroke="#BB9AF7" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="640" y1="290" x2="640" y2="340" stroke="#9ECE6A" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <!-- constraints label -->
+    <text x="540" y="465" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#565F89">
+      constraints: limited BRAM  ·  MicroBlaze budget  ·  strict real-time timing
+    </text>
+  </g>
+
+  <!-- arrows from sensors into FPGA -->
+  <g stroke="#7AA2F7" stroke-width="1.5" fill="none">
+    <line x1="220" y1="182" x2="318" y2="220" marker-end="url(#arrow)"/>
+    <line x1="220" y1="252" x2="318" y2="240" marker-end="url(#arrow)"/>
+    <line x1="220" y1="322" x2="318" y2="260" marker-end="url(#arrow)"/>
+    <line x1="220" y1="392" x2="318" y2="280" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- OUTPUT COLUMN -->
+  <g font-family="'JetBrains Mono', monospace">
+    <text x="880" y="140" font-size="11" fill="#565F89" letter-spacing="2">OUTPUT LAYER</text>
+
+    <!-- ESP32 -->
+    <g>
+      <rect x="850" y="155" width="210" height="75" rx="6" fill="url(#outputGrad)" stroke="#BB9AF7" stroke-width="1.2"/>
+      <text x="865" y="180" font-size="14" font-weight="600" fill="#C0CAF5">ESP32 Wi-Fi</text>
+      <text x="865" y="200" font-size="10" fill="#BB9AF7">Web Dashboard</text>
+      <text x="865" y="216" font-size="9" fill="#565F89">UART link  ·  JSON telemetry</text>
+    </g>
+
+    <!-- Local displays -->
+    <g>
+      <rect x="850" y="250" width="210" height="75" rx="6" fill="url(#outputGrad)" stroke="#BB9AF7" stroke-width="1.2"/>
+      <text x="865" y="275" font-size="14" font-weight="600" fill="#C0CAF5">7-Segment · OLED</text>
+      <text x="865" y="295" font-size="10" fill="#BB9AF7">Local Feedback</text>
+      <text x="865" y="311" font-size="9" fill="#565F89">GPIO  ·  I2C</text>
+    </g>
+
+    <!-- BLE -->
+    <g>
+      <rect x="850" y="345" width="210" height="75" rx="6" fill="url(#outputGrad)" stroke="#565F89" stroke-width="1.2" stroke-dasharray="4 3"/>
+      <text x="865" y="370" font-size="14" font-weight="600" fill="#A9B1D6">BLE Alert</text>
+      <text x="865" y="390" font-size="10" fill="#565F89">Prepared path</text>
+      <text x="865" y="406" font-size="9" fill="#565F89">UART  ·  notifications</text>
+    </g>
+  </g>
+
+  <!-- arrows from FPGA to output -->
+  <g stroke="#BB9AF7" stroke-width="1.5" fill="none">
+    <line x1="752" y1="220" x2="848" y2="192" marker-end="url(#arrowPurple)"/>
+    <line x1="752" y1="290" x2="848" y2="287" marker-end="url(#arrowPurple)"/>
+    <line x1="752" y1="360" x2="848" y2="382" marker-end="url(#arrowPurple)" opacity="0.5" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- BROWSER · downstream -->
+  <g>
+    <rect x="900" y="500" width="160" height="50" rx="6" fill="#1A1B26" stroke="#7DCFFF" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <text x="980" y="525" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#7DCFFF">Browser Client</text>
+    <text x="980" y="540" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#565F89">live dashboard</text>
+    <line x1="955" y1="230" x2="955" y2="498" stroke="#7DCFFF" stroke-width="1" stroke-dasharray="4 4" opacity="0.7"/>
+  </g>
+
+  <!-- LEGEND -->
+  <g transform="translate(40, 530)" font-family="'JetBrains Mono', monospace" font-size="10">
+    <text x="0" y="0" fill="#565F89" letter-spacing="2">// LEGEND</text>
+    <g transform="translate(0, 20)">
+      <rect x="0" y="-9" width="12" height="12" rx="2" fill="none" stroke="#7AA2F7"/>
+      <text x="20" y="0" fill="#A9B1D6">Sensing</text>
+      <rect x="100" y="-9" width="12" height="12" rx="2" fill="none" stroke="#BB9AF7"/>
+      <text x="120" y="0" fill="#A9B1D6">Output</text>
+      <rect x="200" y="-9" width="12" height="12" rx="2" fill="none" stroke="#9ECE6A"/>
+      <text x="220" y="0" fill="#A9B1D6">VHDL IP</text>
+      <rect x="320" y="-9" width="12" height="12" rx="2" fill="none" stroke="#F7768E"/>
+      <text x="340" y="0" fill="#A9B1D6">Engine</text>
+      <line x1="430" y1="-3" x2="450" y2="-3" stroke="#565F89" stroke-width="1.2" stroke-dasharray="4 3"/>
+      <text x="460" y="0" fill="#A9B1D6">Prepared / Future</text>
+    </g>
+  </g>
+
+  <!-- footer ID -->
+  <text x="1060" y="600" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3B3D57">amiltonkoxi/FMEAD-FPGA</text>
+</svg>

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1B26"/>
+      <stop offset="55%" stop-color="#15161F"/>
+      <stop offset="100%" stop-color="#0D0E15"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7AA2F7"/>
+      <stop offset="100%" stop-color="#BB9AF7"/>
+    </linearGradient>
+    <linearGradient id="accentVert" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7AA2F7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#BB9AF7" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#262837" stroke-width="0.4"/>
+    </pattern>
+    <radialGradient id="glow1" cx="0.82" cy="0.25" r="0.45">
+      <stop offset="0%" stop-color="#7AA2F7" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#7AA2F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.12" cy="0.85" r="0.5">
+      <stop offset="0%" stop-color="#BB9AF7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#BB9AF7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect width="1200" height="340" fill="url(#glow1)"/>
+  <rect width="1200" height="340" fill="url(#glow2)"/>
+
+  <!-- right side circuit -->
+  <g stroke="#7AA2F7" stroke-width="1.1" fill="none" opacity="0.5">
+    <path d="M 880 50 L 970 50 L 970 95 L 1050 95"/>
+    <path d="M 920 145 L 1010 145 L 1010 180 L 1100 180"/>
+    <path d="M 870 230 L 960 230 L 960 265 L 1080 265"/>
+    <path d="M 1100 30 L 1100 60 L 1150 60"/>
+  </g>
+  <g fill="#7AA2F7" opacity="0.7">
+    <circle cx="880" cy="50" r="3"/>
+    <circle cx="920" cy="145" r="3"/>
+    <circle cx="870" cy="230" r="3"/>
+    <circle cx="1100" cy="30" r="3"/>
+  </g>
+  <g fill="#BB9AF7" opacity="0.85">
+    <circle cx="1050" cy="95" r="3.5"/>
+    <circle cx="1100" cy="180" r="3.5"/>
+    <circle cx="1080" cy="265" r="3.5"/>
+    <circle cx="1150" cy="60" r="3.5"/>
+  </g>
+
+  <!-- left side circuit -->
+  <g stroke="#BB9AF7" stroke-width="1.1" fill="none" opacity="0.4">
+    <path d="M 30 70 L 95 70 L 95 105 L 155 105"/>
+    <path d="M 25 270 L 90 270 L 90 295 L 155 295"/>
+  </g>
+  <g fill="#BB9AF7" opacity="0.7">
+    <circle cx="30" cy="70" r="2.5"/>
+    <circle cx="25" cy="270" r="2.5"/>
+  </g>
+  <g fill="#7AA2F7" opacity="0.7">
+    <circle cx="155" cy="105" r="2.5"/>
+    <circle cx="155" cy="295" r="2.5"/>
+  </g>
+
+  <!-- FPGA chip top right -->
+  <g transform="translate(1020, 35)" opacity="0.9">
+    <g stroke="#7AA2F7" stroke-width="1.3" opacity="0.65">
+      <line x1="-10" y1="14" x2="0" y2="14"/>
+      <line x1="-10" y1="26" x2="0" y2="26"/>
+      <line x1="-10" y1="38" x2="0" y2="38"/>
+      <line x1="-10" y1="50" x2="0" y2="50"/>
+      <line x1="-10" y1="62" x2="0" y2="62"/>
+      <line x1="70" y1="14" x2="80" y2="14"/>
+      <line x1="70" y1="26" x2="80" y2="26"/>
+      <line x1="70" y1="38" x2="80" y2="38"/>
+      <line x1="70" y1="50" x2="80" y2="50"/>
+      <line x1="70" y1="62" x2="80" y2="62"/>
+      <line x1="14" y1="-10" x2="14" y2="0"/>
+      <line x1="26" y1="-10" x2="26" y2="0"/>
+      <line x1="38" y1="-10" x2="38" y2="0"/>
+      <line x1="50" y1="-10" x2="50" y2="0"/>
+      <line x1="62" y1="-10" x2="62" y2="0"/>
+      <line x1="14" y1="70" x2="14" y2="80"/>
+      <line x1="26" y1="70" x2="26" y2="80"/>
+      <line x1="38" y1="70" x2="38" y2="80"/>
+      <line x1="50" y1="70" x2="50" y2="80"/>
+      <line x1="62" y1="70" x2="62" y2="80"/>
+    </g>
+    <rect x="0" y="0" width="70" height="70" rx="5" fill="#15161F" stroke="url(#accent)" stroke-width="1.6"/>
+    <rect x="10" y="10" width="50" height="50" rx="3" fill="none" stroke="#7AA2F7" stroke-width="0.7" opacity="0.5"/>
+    <rect x="18" y="18" width="34" height="34" rx="2" fill="none" stroke="#BB9AF7" stroke-width="0.7" opacity="0.6"/>
+    <text x="35" y="40" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="700" fill="#7AA2F7" opacity="0.95" letter-spacing="0.5">FPGA</text>
+  </g>
+
+  <!-- accent bar -->
+  <rect x="60" y="105" width="3" height="120" rx="1.5" fill="url(#accentVert)"/>
+
+  <!-- text content -->
+  <g font-family="'JetBrains Mono', 'Fira Code', monospace" filter="url(#softGlow)">
+    <text x="80" y="120" font-size="13" fill="#7AA2F7" opacity="0.9" letter-spacing="4">$ whoami --verbose</text>
+    <text x="80" y="190" font-size="62" font-weight="700" fill="#C0CAF5" letter-spacing="-1.5">Amilton Koxi</text>
+    <text x="80" y="228" font-size="19" fill="url(#accent)" letter-spacing="0.8" font-weight="500">R&amp;D Engineer  ·  Embedded  ·  FPGA  ·  Edge AI</text>
+  </g>
+
+  <text x="80" y="263" font-family="'JetBrains Mono', monospace" font-size="13" fill="#7DCFFF" opacity="0.75" letter-spacing="0.5">
+    Building intelligent systems on real hardware.
+  </text>
+
+  <!-- micro stack tags -->
+  <g font-family="'JetBrains Mono', monospace" font-size="11" fill="#565F89" letter-spacing="2">
+    <text x="80" y="298">VHDL</text>
+    <text x="140" y="298">·</text>
+    <text x="158" y="298">C / C++</text>
+    <text x="232" y="298">·</text>
+    <text x="248" y="298">MICROBLAZE</text>
+    <text x="368" y="298">·</text>
+    <text x="384" y="298">ESP32</text>
+    <text x="440" y="298">·</text>
+    <text x="456" y="298">LORA</text>
+    <text x="500" y="298">·</text>
+    <text x="516" y="298">EDGE AI</text>
+  </g>
+
+  <!-- accent dots -->
+  <g>
+    <circle cx="80" cy="318" r="3" fill="#7AA2F7"/>
+    <circle cx="93" cy="318" r="3" fill="#BB9AF7" opacity="0.7"/>
+    <circle cx="106" cy="318" r="3" fill="#7DCFFF" opacity="0.5"/>
+  </g>
+</svg>
