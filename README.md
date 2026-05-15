@@ -383,8 +383,6 @@ Post quantum cryptography and secure communication for IoT and connected systems
 + 2026   1st place · International edge AI hackathon · SentinelNet
 + 2026   2nd place · Student research conference · OTDK nomination
 + 2025   Excellence scholarship · Academic and research recognition
-+ 2025   Azure DP 900 · Data fundamentals
-+ 2025   Cisco CCNA fundamentals · Networking foundations
 + 2024   1st place · Student research award
 ```
 
@@ -412,11 +410,11 @@ FPGA based multi modal edge anomaly detector with MicroBlaze, VHDL peripherals, 
 </td>
 <td width="50%" valign="top">
 
-### GitHub Focus
+### Engineering Focus
 
-My public GitHub is focused on selected technical projects, documentation, embedded experiments, and research prototypes.
+My public GitHub highlights selected embedded systems, FPGA experiments, research prototypes, and technical documentation.
 
-Most of my FPGA, academic, and research work is developed in private or university repositories. The public work here is a technical snapshot of what I build.
+Most of my FPGA, academic, and research work is developed in private or university repositories. The public work here is a selected technical snapshot.
 
 </td>
 </tr>
@@ -424,23 +422,31 @@ Most of my FPGA, academic, and research work is developed in private or universi
 
 <br/>
 
-<div align="center">
+<table>
+<tr>
+<td width="33%" valign="top">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=amiltonkoxi&bg_color=1A1B26&color=7AA2F7&line=BB9AF7&point=9ECE6A&area=true&hide_border=true&custom_title=Contribution%20Activity" width="98%" alt="Contribution activity"/>
+### Hardware First
 
-</div>
+I work close to the board: sensors, buses, displays, soft processors, timing, memory limits, and real device behavior.
 
-<br/>
+</td>
+<td width="33%" valign="top">
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=tokyonight&hide_border=true&bg_color=1A1B26&title_color=7AA2F7&text_color=A9B1D6" height="165" alt="Most used languages"/>
-</div>
+### Real Time Firmware
 
-<br/>
+I design bare metal logic that reads signals, updates outputs, handles communication, and keeps the system responsive.
 
-<sub>
-Note: GitHub statistics only reflect public repositories and may not represent private academic, embedded, and FPGA work.
-</sub>
+</td>
+<td width="33%" valign="top">
+
+### Edge Intelligence
+
+I focus on lightweight decision logic that runs close to the sensor instead of depending fully on cloud processing.
+
+</td>
+</tr>
+</table>
 
 <div align="center">
   <img src="./media/divider.svg" width="100%" alt=""/>
@@ -465,5 +471,11 @@ I am open to research collaboration, embedded R&D work, FPGA based projects, and
 <a href="https://github.com/amiltonkoxi">
   <img src="https://img.shields.io/badge/GitHub-amiltonkoxi-7DCFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1B26" alt="GitHub"/>
 </a>
+
+<br/><br/>
+
+<sub>
+Embedded systems · FPGA · Edge AI · Wireless sensor networks · Research prototypes
+</sub>
 
 </div>
