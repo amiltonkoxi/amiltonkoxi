@@ -21,7 +21,7 @@
 
 <div align="center">
 
-**I build intelligent embedded systems that run on real hardware, under real constraints.**
+**I design intelligent embedded systems that survive real hardware, real noise, real constraints.**
 
 </div>
 
@@ -73,12 +73,11 @@ open_to:     Research collaboration · Embedded R&D · FPGA projects
 
 ### Why my work matters
 
-Software demos are easy.  
-Real embedded systems are not.
+Software demos are easy. Real systems are not.
 
-I work on the parts most demos hide: small memory, noisy signals, strict timing, hardware bring up, unreliable communication, and limited processing power.
+I work on the parts most demos hide. Tight memory. Noisy signals. Strict timing. Hardware bring up. Lossy radio links. Microcontrollers that won't forgive a single wasted cycle.
 
-That is where engineering actually happens.
+That is where engineering actually happens, and that is where I want to be.
 
 </td>
 </tr>
@@ -97,7 +96,7 @@ That is where engineering actually happens.
 ### `●` Building
 **FMEAD FPGA**
 
-Multi modal edge anomaly detector on Nexys 4 DDR with MicroBlaze, sensors, local display feedback, and Wi Fi telemetry.
+Multi modal edge anomaly detector running on Nexys 4 DDR. MicroBlaze, real sensors, local feedback, Wi Fi telemetry.
 
 `In progress`
 
@@ -117,7 +116,7 @@ FPGA oriented acceleration of cryptographic primitives for connected embedded sy
 ### `●` Exploring
 **Reliable edge sensing**
 
-Adaptive anomaly detection for wireless sensor networks across edge, gateway, and fog layers.
+Adaptive anomaly detection across edge, gateway, and fog layers in wireless sensor networks.
 
 `Research`
 
@@ -142,9 +141,9 @@ Adaptive anomaly detection for wireless sensor networks across edge, gateway, an
 
 <br/>
 
-A real time edge sensing platform that detects abnormal physical events directly on FPGA based embedded hardware. It combines motion, environmental, acoustic, and thermal signals, then exposes system status through local displays and a Wi Fi dashboard.
+A real time edge platform that detects abnormal physical events directly on FPGA based hardware. It fuses motion, environmental, acoustic, and thermal signals, then exposes system status through local displays and a browser dashboard over Wi Fi.
 
-The goal is simple. Detect meaningful events close to the sensors. No remote computer. No cloud dependency.
+The idea is simple. Detect meaningful events close to the sensors. No remote computer. No cloud roundtrip.
 
 <br/>
 
@@ -161,23 +160,23 @@ The goal is simple. Detect meaningful events close to the sensors. No remote com
 #### What it does
 - Reads motion data from an ADXL362 accelerometer
 - Reads environmental data from a BME280 sensor
-- Monitors FPGA temperature through XADC
+- Monitors FPGA die temperature through XADC
 - Detects acoustic events from a PDM microphone
-- Displays local status on 7 segment and OLED
-- Serves a browser dashboard through ESP32 Wi Fi
-- Runs anomaly logic directly on the FPGA platform
+- Drives a 7 segment display and OLED for local status
+- Serves a live dashboard through an ESP32 Wi Fi link
+- Runs anomaly scoring entirely on the FPGA platform
 
 </td>
 <td width="50%" valign="top">
 
 #### Engineering focus
 - Sensor bring up over SPI and I2C
-- AXI integration with MicroBlaze
-- Bare metal firmware design
+- AXI integration with MicroBlaze soft core
+- Bare metal firmware with strict timing
 - Custom VHDL peripheral integration
-- Real time display refresh
-- Memory safe dashboard handling
-- Embedded anomaly scoring
+- Display refresh aligned with bus activity
+- Memory safe dashboard payloads
+- Embedded anomaly scoring without floats where possible
 
 </td>
 </tr>
@@ -190,11 +189,11 @@ The goal is simple. Detect meaningful events close to the sensors. No remote com
 
 | Constraint | What it forced |
 |---|---|
-| Limited BRAM | Compact buffers, no copies, careful sizing of telemetry frames |
-| MicroBlaze budget | Polled SPI cycles tuned per sensor, no busy waits where avoidable |
+| Limited BRAM | Compact buffers, zero copy paths, tight telemetry frames |
+| MicroBlaze budget | Polled SPI tuned per sensor, no busy waits where avoidable |
 | Display timing | Refresh scheduled around AXI traffic to avoid flicker |
 | Noisy real world data | Software filtering before any anomaly decision |
-| ESP32 AT command limits | State machine for safe socket and HTTP handling |
+| ESP32 AT command limits | Strict state machine for socket and HTTP handling |
 | HTML dashboard memory | Static page, minimal payloads, no per request allocation |
 
 </details>
@@ -218,7 +217,7 @@ The goal is simple. Detect meaningful events close to the sensors. No remote com
 <td width="50%" valign="top">
 
 ### SentinelNet
-AI powered CBRNE edge platform for early threat detection and civil protection scenarios. Built during an international hackathon and awarded 1st place.
+AI powered CBRNE edge platform for early threat detection and civil protection scenarios. Awarded 1st place at an international hackathon.
 
 `Python` &nbsp; `Edge AI` &nbsp; `IoT` &nbsp; `Data`
 
@@ -226,7 +225,7 @@ AI powered CBRNE edge platform for early threat detection and civil protection s
 <td width="50%" valign="top">
 
 ### WSN Swarm Anomaly Detection
-Wireless sensor network anomaly detection using EWMA, Page Hinkley statistics, and PSO based tuning across edge, gateway, and fog layers.
+Wireless sensor network anomaly detection with EWMA, Page Hinkley statistics, and PSO tuned thresholds across edge, gateway, and fog layers.
 
 `ESP32` &nbsp; `Python` &nbsp; `C` &nbsp; `WSN`
 
@@ -237,7 +236,7 @@ Wireless sensor network anomaly detection using EWMA, Page Hinkley statistics, a
 <td width="50%" valign="top">
 
 ### LoRa Telemetry System
-Long range low power telemetry with sensor nodes, gateway communication, MQTT bridging, and link quality evaluation.
+Long range low power telemetry with sensor nodes, gateway, MQTT bridging, and link quality evaluation under real field conditions.
 
 `LoRa` &nbsp; `MQTT` &nbsp; `STM32` &nbsp; `Embedded C`
 
@@ -245,7 +244,7 @@ Long range low power telemetry with sensor nodes, gateway communication, MQTT br
 <td width="50%" valign="top">
 
 ### 3D Motion Web Dashboard
-Real time visualization of accelerometer data over Wi Fi from FPGA hardware to a browser based dashboard.
+Real time visualization of accelerometer data over Wi Fi, from FPGA hardware to a browser based 3D dashboard.
 
 `JavaScript` &nbsp; `WebSocket` &nbsp; `ESP32` &nbsp; `Three.js`
 
@@ -256,7 +255,7 @@ Real time visualization of accelerometer data over Wi Fi from FPGA hardware to a
 <td width="50%" valign="top">
 
 ### Nutriparse Reader
-Computer vision pipeline for reading and parsing nutrition labels, designed with low resource inference in mind.
+Computer vision pipeline for reading and parsing nutrition labels, designed with constrained inference in mind.
 
 `Python` &nbsp; `OpenCV` &nbsp; `Computer Vision`
 
@@ -264,7 +263,7 @@ Computer vision pipeline for reading and parsing nutrition labels, designed with
 <td width="50%" valign="top">
 
 ### Banknote Detection
-Vision based banknote recognition prototype with a focus on embedded deployment and lightweight image processing.
+Vision based banknote recognition prototype focused on embedded deployment and lightweight image processing.
 
 `Python` &nbsp; `OpenCV` &nbsp; `Machine Learning`
 
@@ -335,22 +334,26 @@ Vision based banknote recognition prototype with a focus on embedded deployment 
   <img src="./media/divider.svg" width="100%" alt=""/>
 </div>
 
-## &nbsp;`06` &nbsp; Activity
+## &nbsp;`06` &nbsp; Engineering Footprint
 
 <div align="center">
-  <a href="https://github.com/amiltonkoxi">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=amiltonkoxi&show_icons=true&theme=tokyonight&hide_border=false&bg_color=1A1B26&title_color=7AA2F7&icon_color=BB9AF7&text_color=C0CAF5&border_color=2D3047&cache_seconds=1800" alt="GitHub stats"/>
-  </a>
-  <a href="https://github.com/amiltonkoxi">
-    <img height="180" src="https://streak-stats.demolab.com/?user=amiltonkoxi&theme=tokyonight&background=1A1B26&ring=7AA2F7&fire=BB9AF7&currStreakLabel=7AA2F7&border=2D3047&hide_border=false&dates=C0CAF5&sideLabels=C0CAF5&currStreakNum=C0CAF5&sideNums=C0CAF5" alt="GitHub streak"/>
-  </a>
+  <img src="./media/engineering-footprint.svg" width="100%" alt="Engineering footprint dashboard with project counts, hardware platforms, recognitions, and language distribution"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=amiltonkoxi&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&title=Commits,Followers,Repositories,Experience,Stars,Issues,PullRequest" alt="GitHub trophies"/>
 </div>
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/amiltonkoxi">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amiltonkoxi&layout=compact&theme=tokyonight&hide_border=false&bg_color=1A1B26&title_color=7AA2F7&text_color=C0CAF5&border_color=2D3047&langs_count=8&cache_seconds=1800" alt="Top languages"/>
+    <img height="160" src="https://streak-stats.demolab.com/?user=amiltonkoxi&theme=tokyonight&background=1A1B26&ring=7AA2F7&fire=BB9AF7&currStreakLabel=7AA2F7&border=2D3047&hide_border=false&dates=C0CAF5&sideLabels=C0CAF5&currStreakNum=C0CAF5&sideNums=C0CAF5" alt="GitHub streak"/>
+  </a>
+  <a href="https://github.com/amiltonkoxi">
+    <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amiltonkoxi&theme=tokyonight&utcOffset=2" alt="Productive time distribution"/>
   </a>
 </div>
 
@@ -358,6 +361,12 @@ Vision based banknote recognition prototype with a focus on embedded deployment 
 
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=amiltonkoxi&theme=tokyo-night&bg_color=1A1B26&color=7AA2F7&line=BB9AF7&point=7DCFFF&hide_border=false&border_color=2D3047&area=true" alt="Contribution graph"/>
+</div>
+
+<br/>
+
+<div align="center">
+<sub>Most of my hardware work lives outside GitHub. Bitstreams, lab measurements, signal traces, and academic deliverables don't fit a commit graph. The real footprint is in the projects above.</sub>
 </div>
 
 <div align="center">
@@ -371,16 +380,16 @@ Vision based banknote recognition prototype with a focus on embedded deployment 
 <td width="50%" valign="top">
 
 ### Edge Intelligence
-On device anomaly detection under strict memory, timing, and energy constraints.
+On device anomaly detection under strict memory, timing, and energy budgets.
 
 ### FPGA Acceleration
-Hardware acceleration for signal processing, embedded intelligence, and security primitives.
+Hardware acceleration of signal processing, embedded intelligence, and security primitives.
 
 </td>
 <td width="50%" valign="top">
 
 ### Wireless Sensor Networks
-Reliable sensing across distributed edge, gateway, and fog architectures.
+Reliable distributed sensing across edge, gateway, and fog architectures.
 
 ### Embedded Security
 Post quantum cryptography and secure communication for IoT and connected systems.
