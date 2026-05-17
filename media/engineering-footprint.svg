@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Engineering Footprint dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1B26"/>
+      <stop offset="100%" stop-color="#13141F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7AA2F7"/>
+      <stop offset="100%" stop-color="#BB9AF7"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7DCFFF"/>
+      <stop offset="100%" stop-color="#7AA2F7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2D3047" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="520" fill="url(#bg)" rx="14"/>
+  <rect width="1200" height="520" fill="url(#grid)" rx="14"/>
+  <rect width="1200" height="520" fill="none" stroke="#2D3047" stroke-width="1" rx="14"/>
+
+  <!-- Top terminal bar -->
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="1200" height="44" fill="#16161E" rx="14"/>
+    <rect x="0" y="30" width="1200" height="14" fill="#16161E"/>
+    <circle cx="22" cy="22" r="5" fill="#F7768E"/>
+    <circle cx="42" cy="22" r="5" fill="#E0AF68"/>
+    <circle cx="62" cy="22" r="5" fill="#9ECE6A"/>
+    <text x="600" y="27" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#565F89">~/amiltonkoxi/engineering-footprint.dash</text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(40, 80)">
+    <text font-family="JetBrains Mono, monospace" font-size="13" fill="#565F89">$ cat profile.summary</text>
+    <text y="34" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="26" fill="#C0CAF5">Engineering Footprint</text>
+    <text y="60" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#7AA2F7">Real metrics. From sensor pin to working system.</text>
+  </g>
+
+  <!-- Status indicator -->
+  <g transform="translate(1080, 88)">
+    <circle cx="0" cy="0" r="5" fill="#9ECE6A">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="12" y="4" font-family="JetBrains Mono, monospace" font-size="11" fill="#9ECE6A">SYS_ACTIVE</text>
+  </g>
+
+  <!-- Stat cards row -->
+  <g transform="translate(40, 170)">
+    <!-- Card 1: Projects -->
+    <g transform="translate(0, 0)">
+      <rect width="265" height="130" rx="10" fill="#1F2335" stroke="#2D3047" stroke-width="1"/>
+      <rect width="265" height="3" rx="2" fill="url(#accent)"/>
+      <text x="20" y="32" font-family="JetBrains Mono, monospace" font-size="11" fill="#565F89">// projects_shipped</text>
+      <text x="20" y="78" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="48" fill="#7AA2F7" filter="url(#glow)">12+</text>
+      <text x="20" y="104" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#C0CAF5">Embedded &amp; FPGA</text>
+      <text x="20" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#565F89">research and production</text>
+    </g>
+
+    <!-- Card 2: Hardware -->
+    <g transform="translate(285, 0)">
+      <rect width="265" height="130" rx="10" fill="#1F2335" stroke="#2D3047" stroke-width="1"/>
+      <rect width="265" height="3" rx="2" fill="url(#accent)"/>
+      <text x="20" y="32" font-family="JetBrains Mono, monospace" font-size="11" fill="#565F89">// hw_platforms</text>
+      <text x="20" y="78" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="48" fill="#BB9AF7" filter="url(#glow)">8</text>
+      <text x="20" y="104" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#C0CAF5">FPGA, STM32, ESP32</text>
+      <text x="20" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#565F89">MicroBlaze, LoRa, Pi</text>
+    </g>
+
+    <!-- Card 3: Awards -->
+    <g transform="translate(570, 0)">
+      <rect width="265" height="130" rx="10" fill="#1F2335" stroke="#2D3047" stroke-width="1"/>
+      <rect width="265" height="3" rx="2" fill="url(#accent)"/>
+      <text x="20" y="32" font-family="JetBrains Mono, monospace" font-size="11" fill="#565F89">// recognitions</text>
+      <text x="20" y="78" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="48" fill="#7DCFFF" filter="url(#glow)">04</text>
+      <text x="20" y="104" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#C0CAF5">Hackathon &amp; research</text>
+      <text x="20" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#565F89">2024 — 2026</text>
+    </g>
+
+    <!-- Card 4: Years -->
+    <g transform="translate(855, 0)">
+      <rect width="265" height="130" rx="10" fill="#1F2335" stroke="#2D3047" stroke-width="1"/>
+      <rect width="265" height="3" rx="2" fill="url(#accent)"/>
+      <text x="20" y="32" font-family="JetBrains Mono, monospace" font-size="11" fill="#565F89">// years_in_field</text>
+      <text x="20" y="78" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="48" fill="#9ECE6A" filter="url(#glow)">5+</text>
+      <text x="20" y="104" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#C0CAF5">R&amp;D &amp; embedded</text>
+      <text x="20" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#565F89">BSc → MSc → PhD track</text>
+    </g>
+  </g>
+
+  <!-- Tech stack progress section -->
+  <g transform="translate(40, 340)">
+    <text font-family="JetBrains Mono, monospace" font-size="11" fill="#565F89">// language_distribution.real</text>
+
+    <!-- Lang 1: C -->
+    <g transform="translate(0, 22)">
+      <text font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">C / Bare metal</text>
+      <text x="1120" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7AA2F7">32%</text>
+      <rect x="0" y="8" width="1120" height="5" rx="3" fill="#1F2335"/>
+      <rect x="0" y="8" width="358" height="5" rx="3" fill="url(#accent2)"/>
+    </g>
+
+    <!-- Lang 2: Python -->
+    <g transform="translate(0, 48)">
+      <text font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">Python / ML</text>
+      <text x="1120" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7AA2F7">26%</text>
+      <rect x="0" y="8" width="1120" height="5" rx="3" fill="#1F2335"/>
+      <rect x="0" y="8" width="291" height="5" rx="3" fill="url(#accent2)"/>
+    </g>
+
+    <!-- Lang 3: VHDL -->
+    <g transform="translate(0, 74)">
+      <text font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">VHDL / FPGA</text>
+      <text x="1120" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7AA2F7">22%</text>
+      <rect x="0" y="8" width="1120" height="5" rx="3" fill="#1F2335"/>
+      <rect x="0" y="8" width="246" height="5" rx="3" fill="url(#accent2)"/>
+    </g>
+
+    <!-- Lang 4: C++ -->
+    <g transform="translate(0, 100)">
+      <text font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">C++</text>
+      <text x="1120" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7AA2F7">14%</text>
+      <rect x="0" y="8" width="1120" height="5" rx="3" fill="#1F2335"/>
+      <rect x="0" y="8" width="156" height="5" rx="3" fill="url(#accent2)"/>
+    </g>
+
+    <!-- Lang 5: JavaScript -->
+    <g transform="translate(0, 126)">
+      <text font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">JavaScript / Dashboards</text>
+      <text x="1120" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7AA2F7">6%</text>
+      <rect x="0" y="8" width="1120" height="5" rx="3" fill="#1F2335"/>
+      <rect x="0" y="8" width="67" height="5" rx="3" fill="url(#accent2)"/>
+    </g>
+  </g>
+</svg>
