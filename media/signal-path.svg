@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Signal path from sensor to dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16161E"/>
+      <stop offset="100%" stop-color="#1A1B26"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7AA2F7" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#7AA2F7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7AA2F7" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.5" fill="#2D3047"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#565F89"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#dots)"/>
+
+  <!-- Header annotation -->
+  <g transform="translate(40, 36)">
+    <text font-family="JetBrains Mono, monospace" font-size="10" fill="#565F89" letter-spacing="2">SIGNAL PATH · FROM PHYSICAL EVENT TO BROWSER</text>
+  </g>
+
+  <!-- Domain bands at top -->
+  <g transform="translate(0, 60)" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89" letter-spacing="1.5">
+    <line x1="40" y1="0" x2="280" y2="0" stroke="#2D3047" stroke-width="1"/>
+    <text x="160" y="-6" text-anchor="middle" fill="#F7768E">PHYSICAL</text>
+
+    <line x1="300" y1="0" x2="700" y2="0" stroke="#2D3047" stroke-width="1"/>
+    <text x="500" y="-6" text-anchor="middle" fill="#BB9AF7">SILICON</text>
+
+    <line x1="720" y1="0" x2="980" y2="0" stroke="#2D3047" stroke-width="1"/>
+    <text x="850" y="-6" text-anchor="middle" fill="#7DCFFF">WIRELESS</text>
+
+    <line x1="1000" y1="0" x2="1160" y2="0" stroke="#2D3047" stroke-width="1"/>
+    <text x="1080" y="-6" text-anchor="middle" fill="#9ECE6A">SOFTWARE</text>
+  </g>
+
+  <!-- Center line connecting all stages -->
+  <line x1="120" y1="200" x2="1080" y2="200" stroke="#2D3047" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- Stage 1: Sensor (ADXL362) - chip with pins -->
+  <g transform="translate(80, 160)">
+    <!-- chip body -->
+    <rect x="0" y="10" width="80" height="60" rx="2" fill="#1F2335" stroke="#F7768E" stroke-width="1.5"/>
+    <!-- pins -->
+    <g fill="#F7768E">
+      <rect x="-4" y="22" width="4" height="3"/>
+      <rect x="-4" y="32" width="4" height="3"/>
+      <rect x="-4" y="42" width="4" height="3"/>
+      <rect x="-4" y="52" width="4" height="3"/>
+      <rect x="80" y="22" width="4" height="3"/>
+      <rect x="80" y="32" width="4" height="3"/>
+      <rect x="80" y="42" width="4" height="3"/>
+      <rect x="80" y="52" width="4" height="3"/>
+    </g>
+    <!-- chip label -->
+    <text x="40" y="44" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600" fill="#C0CAF5">ADXL</text>
+    <text x="40" y="56" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">362</text>
+
+    <!-- caption -->
+    <text x="40" y="100" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">Accelerometer</text>
+    <text x="40" y="116" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">±2g · 12-bit</text>
+  </g>
+
+  <!-- Connection 1: Sensor → FPGA -->
+  <g>
+    <line x1="164" y1="200" x2="318" y2="200" stroke="#7AA2F7" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="241" y="192" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#7AA2F7">SPI · 1 MHz</text>
+  </g>
+
+  <!-- Stage 2: FPGA (MicroBlaze) - chip with BGA-like dots -->
+  <g transform="translate(320, 145)">
+    <rect x="0" y="10" width="110" height="100" rx="3" fill="#1F2335" stroke="#BB9AF7" stroke-width="1.5"/>
+    <!-- BGA dots -->
+    <g fill="#BB9AF7" opacity="0.5">
+      <circle cx="14" cy="24" r="1.5"/><circle cx="26" cy="24" r="1.5"/><circle cx="38" cy="24" r="1.5"/>
+      <circle cx="72" cy="24" r="1.5"/><circle cx="84" cy="24" r="1.5"/><circle cx="96" cy="24" r="1.5"/>
+      <circle cx="14" cy="96" r="1.5"/><circle cx="26" cy="96" r="1.5"/><circle cx="38" cy="96" r="1.5"/>
+      <circle cx="72" cy="96" r="1.5"/><circle cx="84" cy="96" r="1.5"/><circle cx="96" cy="96" r="1.5"/>
+    </g>
+    <!-- labels -->
+    <text x="55" y="58" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" font-weight="600" fill="#C0CAF5">MicroBlaze</text>
+    <text x="55" y="74" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">Nexys 4 DDR</text>
+    <text x="55" y="86" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">100 MHz</text>
+
+    <text x="55" y="135" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">Soft core SoC</text>
+    <text x="55" y="151" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">bare metal C</text>
+  </g>
+
+  <!-- Connection 2: FPGA → Detector -->
+  <g>
+    <line x1="434" y1="200" x2="538" y2="200" stroke="#BB9AF7" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="486" y="192" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#BB9AF7">AXI4 · 32-bit</text>
+  </g>
+
+  <!-- Stage 3: Detector (custom IP) - hexagon -->
+  <g transform="translate(540, 160)">
+    <polygon points="20,10 80,10 100,40 80,70 20,70 0,40" fill="#1F2335" stroke="#BB9AF7" stroke-width="1.5"/>
+    <text x="50" y="36" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600" fill="#C0CAF5">EWMA</text>
+    <text x="50" y="50" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">Page-Hinkley</text>
+
+    <text x="50" y="100" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">Anomaly engine</text>
+    <text x="50" y="116" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">on-device · int math</text>
+  </g>
+
+  <!-- Connection 3: Detector → ESP32 -->
+  <g>
+    <line x1="644" y1="200" x2="748" y2="200" stroke="#7DCFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="696" y="192" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#7DCFFF">UART · AT</text>
+  </g>
+
+  <!-- Stage 4: ESP32 with antenna -->
+  <g transform="translate(750, 160)">
+    <rect x="0" y="10" width="80" height="60" rx="2" fill="#1F2335" stroke="#7DCFFF" stroke-width="1.5"/>
+    <text x="40" y="44" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600" fill="#C0CAF5">ESP32</text>
+    <text x="40" y="56" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">Wi-Fi · TCP</text>
+    <!-- antenna waves -->
+    <g stroke="#7DCFFF" stroke-width="1" fill="none">
+      <path d="M 85 20 Q 90 30 85 40" opacity="0.4"/>
+      <path d="M 90 16 Q 98 30 90 44" opacity="0.3"/>
+      <path d="M 95 12 Q 106 30 95 48" opacity="0.2"/>
+    </g>
+
+    <text x="40" y="100" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">Wireless bridge</text>
+    <text x="40" y="116" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">2.4 GHz · HTTP</text>
+  </g>
+
+  <!-- Connection 4: ESP32 → Browser (wireless, dashed) -->
+  <g>
+    <line x1="864" y1="200" x2="998" y2="200" stroke="#9ECE6A" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+    <text x="931" y="192" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#9ECE6A">JSON · 50 Hz</text>
+  </g>
+
+  <!-- Stage 5: Browser/Dashboard -->
+  <g transform="translate(1000, 152)">
+    <!-- browser frame -->
+    <rect x="0" y="10" width="120" height="80" rx="3" fill="#1F2335" stroke="#9ECE6A" stroke-width="1.5"/>
+    <!-- browser top bar -->
+    <rect x="0" y="10" width="120" height="14" rx="3" fill="#16161E"/>
+    <rect x="0" y="21" width="120" height="3" fill="#16161E"/>
+    <circle cx="8" cy="17" r="1.5" fill="#F7768E"/>
+    <circle cx="14" cy="17" r="1.5" fill="#E0AF68"/>
+    <circle cx="20" cy="17" r="1.5" fill="#9ECE6A"/>
+
+    <!-- mini chart inside browser -->
+    <polyline points="10,80 25,72 40,76 55,60 70,68 85,50 100,58 115,42" fill="none" stroke="#7AA2F7" stroke-width="1.5"/>
+    <polyline points="10,82 25,78 40,74 55,70 70,74 85,62 100,66 115,54" fill="none" stroke="#BB9AF7" stroke-width="1" opacity="0.6"/>
+
+    <text x="60" y="115" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#C0CAF5">Live dashboard</text>
+    <text x="60" y="131" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#565F89">Three.js · WebSocket</text>
+  </g>
+
+  <!-- Bottom annotation -->
+  <g transform="translate(40, 330)">
+    <text font-family="JetBrains Mono, monospace" font-size="10" fill="#565F89">latency: ~20 ms end to end · pipeline runs entirely on the edge · no cloud roundtrip</text>
+  </g>
+</svg>
